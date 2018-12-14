@@ -102,6 +102,12 @@ friends: [
         title: "NewOrder",
         href: "http://45.32.68.50/gavinHtml/NewOrder"
     },{
+        title: "PremPDI",
+        href: "http://lilab.jysw.suda.edu.cn/research/PremPDI"
+    },{
+        title: "BY Blog",
+        href: "https://qiubaiying.github.io"
+    },{
         title: "Apple",
         href: "https://apple.com"
     },{
