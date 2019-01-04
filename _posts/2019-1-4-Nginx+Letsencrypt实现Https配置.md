@@ -4,7 +4,7 @@ title:      Https配置
 subtitle:   基于Nginx与Letsencrypt
 date:       2019-1-4
 author:     Gavin
-header-img: img/post-bg-coffee.jpg
+header-img: img/post-bg-ioses.jpg
 catalog: true
 tags:
     - Nginx
