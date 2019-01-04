@@ -59,14 +59,14 @@ SSL提供的安全服务可归纳为以下三种：
 
 # 过程
 
-### 1.安装 Let’s Encrypt 客户端
+#### 1.安装 Let’s Encrypt 客户端
 
 ```
 yum install git python#安装git
 git clone https://github.com/letsencrypt/letsencrypt#克隆仓库到本地
 ```
 
-### 2.验证安装是否成功
+#### 2.验证安装是否成功
 
 使用以下命令运行一次客户端，将自动检查更新并升级（letsencrypt启动后，总是会自动检查更新并升级，除非使用--no-self-upgrade参数显示指定），如果一切正常（事实上，升级后letsencrypt在某些系统、某些云服务商的机器上常常不能正常运行，因为涉及到各种源，版本依赖等问题），将会显示完整的帮助文档。
 
@@ -75,7 +75,7 @@ cd letsencrypt
 ./letsencrypt-auto --help all
 ```
 
-### 3.验证域名所有权并获取证书
+#### 3.验证域名所有权并获取证书
 
 认证插件通过certonly命令启用，认证功能用于确认你是域名的所有者，并为你的域名获取证书，证书被放置在你的域名所在服务器的/etc/letsencrypt/live/[domain]目录。如果你一次性对多个域名进行认证，则这些域名将共用一个证书文件。
 
@@ -151,7 +151,7 @@ IMPORTANT NOTES:
    Donating to EFF:                    https://eff.org/donate-le
 ```
 
-### 4.安装证书（基于nginx）
+#### 4.安装证书（基于nginx）
 
 ```
 ./letsencrypt-auto install --nginx --nginx-server-root <nginx conf path> --nginx-ctl <nginx binary path>
@@ -206,7 +206,7 @@ server {
 安装成功
 ![](https://ws3.sinaimg.cn/large/006tNc79ly1fyumvzequaj30dh07ljsb.jpg)
 
-### 5.证书管理
+#### 5.证书管理
 
 1. 查看letsencrypt在当前服务器获取的证书
 
