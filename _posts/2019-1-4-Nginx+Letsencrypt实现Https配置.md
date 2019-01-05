@@ -8,7 +8,8 @@ header-img: img/post-bg-ioses.jpg
 catalog: true
 tags:
     - Nginx
-    - Https
+    - HTTPS
+    - Web
     - SSL
 ---
 
