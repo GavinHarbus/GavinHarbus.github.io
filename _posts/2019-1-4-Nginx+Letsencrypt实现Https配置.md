@@ -29,7 +29,7 @@ tags:
 
 HTTP（超文本传送协议）定义了浏览器怎样向服务器请求资源，以及服务器如何将资源传送给服务器。HTTP是**面向事务**的**应用层**协议，它是网络上可靠交换文件的基础。HTTP使用了**面向连接**的**TCP**作为运输层协议，保证了数据的可靠传输，因此HTTP不必考虑丢失重传的问题（*注：Http协议本身是无连接、无状态的*）。
 
-![](https://ws2.sinaimg.cn/large/006tNc79ly1fyukhxflc0j30ch08w765.jpg)
+![](http://45.32.68.50/large/006tNc79ly1fyukhxflc0j30ch08w765.jpg)
 
 HTTPS（提供安全服务的HTTP协议）则确保了（1）用户请求的服务器属于真正的服务商（2）报文内容在传输过程中没有被更改（3）传输过程中敏感信息不被窃听。要保证以上安全服务，需要使用运输层的安全协议，现在广泛使用的有如下两个： 
 
@@ -38,7 +38,7 @@ HTTPS（提供安全服务的HTTP协议）则确保了（1）用户请求的服�
 
 SSL协议作用在端系统应用层的HTTP和运输层之间，在TCP之上建立一个安全通道，为通过TCP传输的应用层数据提供安全保障。之后，IETF在SSL 3.0的基础上对其进行了标准化，设计了TLS协议，为所有基于TCP的网络应用提供安全数据传输服务。（*注：SSL应该是运输层协议，然而实际上，需要使用安全运输的应用程序（如HTTP）却把SSL驻留在应用层，因而应用层扩大了*）
 
-![](https://ws3.sinaimg.cn/large/006tNc79ly1fyul65innvj30d706omy5.jpg)
+![](http://45.32.68.50/large/006tNc79ly1fyul65innvj30d706omy5.jpg)
 
 应用层使用SSL最多的就是HTTP，但SSL并非仅用于HTTP，而是可用于**任何**应用层的协议。HTTP调用SSL时，对整个网页进行加密。这时，在发送方，SSL从SSL套接字接收应用层的数据（如HTTP报文或IMAP报文），对数据进行加密，然后把加密的数据送往TCP套接字；在接收方，SSL从TCP套接字读取数据，解密后，通过SSL套接字把数据交给应用层。
 
@@ -48,13 +48,13 @@ SSL提供的安全服务可归纳为以下三种：
 2. SSL客户鉴别，SSL的可选安全服务，允许服务器证实客户的身份
 3. 加密的SSL会话，对客户和服务器之间发送的所用报文进行加密，并检测报文是否被篡改
 
-![](https://ws1.sinaimg.cn/large/006tNc79ly1fyuljdd597j30dx099abr.jpg)
+![](http://45.32.68.50/large/006tNc79ly1fyuljdd597j30dx099abr.jpg)
 
 #### Let's Encrypt
 
 **[Let's Encrypt](https://letsencrypt.org/)**作为一个公共且免费SSL的项目逐渐被广大用户传播和使用，是由Mozilla、Cisco、Akamai、IdenTrust、EFF等组织人员发起，主要的目的也是为了推进网站从HTTP向HTTPS过渡的进程，目前已经有越来越多的商家加入和赞助支持。
 
-![](https://ws4.sinaimg.cn/large/006tNc79ly1fyultiysl7j30w30d611a.jpg)
+![](http://45.32.68.50/large/006tNc79ly1fyultiysl7j30w30d611a.jpg)
 
 ---
 
@@ -205,7 +205,7 @@ server {
 }
 ```
 安装成功
-![](https://ws3.sinaimg.cn/large/006tNc79ly1fyumvzequaj30dh07ljsb.jpg)
+![](http://45.32.68.50/large/006tNc79ly1fyumvzequaj30dh07ljsb.jpg)
 
 #### 5.证书管理
 

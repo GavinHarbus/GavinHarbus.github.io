@@ -24,7 +24,7 @@ Windows端通常使用 [**XShell**](https://xshell.en.softonic.com/) 和 [**Xman
 
 # 介绍
 
-![](https://ws3.sinaimg.cn/large/006tKfTcly1g1oiu46p77j30sp0ergoh.jpg)  
+![](http://45.32.68.50/large/006tKfTcly1g1oiu46p77j30sp0ergoh.jpg)  
 
 XQuartz是运行在OS X下的 **X Window System**，是一种计算机软件系统和网络协议，提供了一个基础的图形用户界面（GUI）和丰富的输入设备能力联网计算机。其中软件编写使用广义的命令集，它创建了一个硬件抽象层，允许设备独立性和重用方案的任何计算机上实现。  
 
@@ -46,7 +46,7 @@ service sshd restart
 
 #### 下载安装XQuartz
 
-![](https://ws3.sinaimg.cn/large/006tKfTcly1g1oizxg15ej30vw0fn7hq.jpg)  
+![](http://45.32.68.50/large/006tKfTcly1g1oizxg15ej30vw0fn7hq.jpg)  
 
 #### Mac OS系统下修改ssh配置
 
@@ -63,7 +63,7 @@ Host *
 ```
 
 打开XQuartz
-![](https://ws2.sinaimg.cn/large/006tKfTcly1g1oj2s8ao8j30dk09idg0.jpg)  
+![](http://45.32.68.50/large/006tKfTcly1g1oj2s8ao8j30dk09idg0.jpg)  
 
 #### 连接服务器  
 
@@ -72,7 +72,7 @@ ssh -X user@ip
 ```
 
 启动程序
-![](https://ws2.sinaimg.cn/large/006tKfTcly1g1oj5iqavxj30in0jyt9j.jpg)  
+![](http://45.32.68.50/large/006tKfTcly1g1oj5iqavxj30in0jyt9j.jpg)  
 成功！！
 
 ---
