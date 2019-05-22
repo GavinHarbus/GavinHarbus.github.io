@@ -23,7 +23,7 @@ tags:
 
 # 介绍
 
-![](https://ws1.sinaimg.cn/large/006tNc79ly1g3a1wm30fmj30he040mx8.jpg)  
+![](http://45.32.68.50/large/006tNc79ly1g3a1wm30fmj30he040mx8.jpg)  
 
 Nginx与Apache一样，是web服务器程序。Nginx较之Apache是一个高性能、高并发、低消耗的Http和反向代理服务器，同时也提供了IMAP/POP3/SMTP服务。
 
@@ -43,7 +43,7 @@ Nginx与Apache一样，是web服务器程序。Nginx较之Apache是一个高性�
 	```
 	service nginx status
 	```  
-	![](https://ws4.sinaimg.cn/large/006tNc79ly1g3a2czr8e7j30ko026mxk.jpg)  
+	![](http://45.32.68.50/large/006tNc79ly1g3a2czr8e7j30ko026mxk.jpg)  
 	此时尚未激活
 3. 关闭Apache，释放80端口
 
@@ -55,7 +55,7 @@ Nginx与Apache一样，是web服务器程序。Nginx较之Apache是一个高性�
 	```
 	sudo service nginx start
 	```  
-	![](https://ws2.sinaimg.cn/large/006tNc79ly1g3a2gbb3m0j30za0bggnc.jpg)
+	![](http://45.32.68.50/large/006tNc79ly1g3a2gbb3m0j30za0bggnc.jpg)
 	访问服务器看到已经可以使用了  
 	默认文件路径：  
 	* 网页根目录：/usr/share/nginx/html
@@ -74,7 +74,7 @@ Nginx与Apache一样，是web服务器程序。Nginx较之Apache是一个高性�
 	```
 	service php-fpm status
 	```  
-	![](https://ws1.sinaimg.cn/large/006tNc79ly1g3a2mhr0k6j30l0021gm1.jpg)  
+	![](http://45.32.68.50/large/006tNc79ly1g3a2mhr0k6j30l0021gm1.jpg)  
 	如同之前Nginx一样，此时尚未激活  
 3. 完成，等待配置  
 
@@ -107,7 +107,7 @@ Nginx与Apache一样，是web服务器程序。Nginx较之Apache是一个高性�
 	```
 	sudo service php-fpm start
 	```  
-	![](https://ws4.sinaimg.cn/large/006tNc79ly1g3a347rivzj30l106ign3.jpg)  
+	![](http://45.32.68.50/large/006tNc79ly1g3a347rivzj30l106ign3.jpg)  
 	已启动
 4. 配置Nginx以处理PHP页面
 	
@@ -144,7 +144,7 @@ Nginx与Apache一样，是web服务器程序。Nginx较之Apache是一个高性�
 	}
 	```
 5. 重启Nginx并访问原来的网站
-	![](https://ws2.sinaimg.cn/large/006tNc79ly1g3a3jkgwrtj30yz0gq1bs.jpg)  
+	![](http://45.32.68.50/large/006tNc79ly1g3a3jkgwrtj30yz0gq1bs.jpg)  
 	成功！！！
 6. 配置Nginx和php\-fpm自启动
 
