@@ -207,6 +207,17 @@ go run picTransController.go
 1. 注意开发时和部署时的路径问题
 2. 部署后，静态资源交由Nginx转发，因此要尤其注意静态资源的路径问题
 3. 后台运行Go Web进程的方式比较暴力，由于我是初学，还未找到优雅的部署方式
+4. 有可能会遇到Nginx 413 Request Entity Too Large的问题
+	
+	这是请求太大，超过上限了，解决如下：  
+	
+	```
+	server {  
+	    ...  
+	    client_max_body_size 20m;  
+	    ...  
+	}
+	```
 
 #### 资源
 

@@ -99,6 +99,9 @@ service-worker: true
 # Friends
 friends: [
     {
+        title: "PicTrans",
+        href: "http://45.32.68.50/PicTrans"
+    },{
         title: "NewOrder",
         href: "http://45.32.68.50/gavinHtml/NewOrder"
     },{
