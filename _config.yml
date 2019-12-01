@@ -100,10 +100,10 @@ service-worker: true
 friends: [
     {
         title: "PicTrans",
-        href: "http://45.32.68.50/PicTrans"
+        href: "http://gavinmandias.online/PicTrans"
     },{
         title: "NewOrder",
-        href: "http://45.32.68.50/gavinHtml/NewOrder"
+        href: "http://gavinmandias.online/gavinHtml/NewOrder"
     },{
         title: "PremPDI",
         href: "http://lilab.jysw.suda.edu.cn/research/PremPDI"
