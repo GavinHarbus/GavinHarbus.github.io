@@ -4,7 +4,7 @@ title:      K8S集群内运行gitlab-runner
 subtitle:   集群实践
 date:       2019-12-17
 author:     Gavin
-header-img: img/post-bg-germany-brdge.jpg
+header-img: img/post-bg-germany-bridge.jpg
 catalog: true
 tags:
     - 云计算
