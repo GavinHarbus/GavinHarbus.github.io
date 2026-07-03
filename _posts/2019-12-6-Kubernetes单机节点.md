@@ -3,7 +3,7 @@ layout:     post
 title:      Kubernetes单机节点
 subtitle:   使用kubeadm
 date:       2019-12-6
-author:     Gavin
+author:     Gavin Schnee
 header-img: img/post-bg-rose.jpg
 catalog: true
 tags:

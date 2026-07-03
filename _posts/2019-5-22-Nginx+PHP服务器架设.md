@@ -3,7 +3,7 @@ layout:     post
 title:      Nginx+PHP服务器架设
 subtitle:   基于Cent OS 7
 date:       2019-5-22
-author:     Gavin
+author:     Gavin Schnee
 header-img: img/post-bg-e2e-ux.jpg
 catalog: true
 tags:

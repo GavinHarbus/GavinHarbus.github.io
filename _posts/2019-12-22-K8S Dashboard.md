@@ -3,7 +3,7 @@ layout:     post
 title:      K8S Dashboard
 subtitle:   集群实践
 date:       2019-12-22
-author:     Gavin
+author:     Gavin Schnee
 header-img: img/post-bg-night-lights.jpg
 catalog: true
 tags:

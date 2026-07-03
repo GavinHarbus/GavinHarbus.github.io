@@ -3,7 +3,7 @@ layout:     post
 title:      SSH远程连接Linux图形用户界面（GUI）
 subtitle:   macOS Sierra系统
 date:       2019-4-2
-author:     Gavin
+author:     Gavin Schnee
 header-img: img/post-bg-debug.png
 catalog: true
 tags:

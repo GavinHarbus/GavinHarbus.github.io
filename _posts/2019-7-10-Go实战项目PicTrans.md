@@ -3,7 +3,7 @@ layout:     post
 title:      Go项目实战PicTrans
 subtitle:   图片风格转换
 date:       2019-7-10
-author:     Gavin
+author:     Gavin Schnee
 header-img: img/post-bg-js-version.jpg
 catalog: true
 tags:

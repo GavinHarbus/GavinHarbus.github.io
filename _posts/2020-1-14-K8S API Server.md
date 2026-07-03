@@ -3,7 +3,7 @@ layout:     post
 title:      K8S API Server
 subtitle:   概念
 date:       2020-1-14
-author:     Gavin
+author:     Gavin Schnee
 header-img: img/post-bg-sky-trees.jpg
 catalog: true
 tags:

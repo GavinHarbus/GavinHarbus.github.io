@@ -3,7 +3,7 @@ layout:     post
 title:      Kubernetes初探
 subtitle:   概念和基本使用
 date:       2019-10-17
-author:     Gavin
+author:     Gavin Schnee
 header-img: img/post-bg-swift2.jpg
 catalog: true
 tags:

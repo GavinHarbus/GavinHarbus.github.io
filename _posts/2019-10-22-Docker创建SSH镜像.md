@@ -3,7 +3,7 @@ layout:     post
 title:      Docker创建SSH镜像
 subtitle:   基本使用
 date:       2019-10-22
-author:     Gavin
+author:     Gavin Schnee
 header-img: img/post-bg-universe.jpg
 catalog: true
 tags:

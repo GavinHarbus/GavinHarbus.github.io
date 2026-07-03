@@ -1,10 +1,10 @@
 # Site settings
-title: Gavin Blog
-SEOTitle: 飞洋的博客 | Gavin Blog
+title: Gavin Schnee Blog
+SEOTitle: 飞洋的博客 | Gavin Schnee Blog
 header-img: img/home-bg-o.jpg
 email: gavindea@outlook.com
 description: "Every cloud has a silver lining!"
-keyword: "Gavin, Gavin Blog, 飞洋的博客, GavinHarbus, 赵飞洋, iOS, Apple, iPhone"
+keyword: "Gavin Schnee, Gavin Schnee Blog, 飞洋的博客, GavinHarbus, 赵飞洋, iOS, Apple, iPhone"
 url: "http://gavinharbus.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/GavinHarbus/GavinHarbus.github.io.git" # you code repository

@@ -3,7 +3,7 @@ layout:     post
 title:      Https配置
 subtitle:   基于Nginx与Letsencrypt
 date:       2019-1-4
-author:     Gavin
+author:     Gavin Schnee
 header-img: img/post-bg-ioses.jpg
 catalog: true
 tags:
