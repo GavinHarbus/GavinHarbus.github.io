@@ -99,11 +99,11 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "PicTrans",
-        href: "http://gavinmandias.online/PicTrans"
+        title: "Gavin Schnee Studio",
+        href: "https://gavinschneestudio.org"
     },{
-        title: "NewOrder",
-        href: "http://gavinmandias.online/gavinHtml/NewOrder"
+        title: "NyxForge",
+        href: "https://nyxforge.dev"
     },{
         title: "PremPDI",
         href: "http://lilab.jysw.suda.edu.cn/research/PremPDI"
