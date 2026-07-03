@@ -18,7 +18,7 @@ tags:
 
 #### Kubernetes
 
-![](http://45.32.68.50/large/006y8mN6ly1g7z40z9vj4j30yl06pgn7.jpg)  
+![](https://crescentrose.blob.core.windows.net/blog-img/006y8mN6ly1g7z40z9vj4j30yl06pgn7.jpg)  
 
 [**Kubernetes**](https://kubernetes.io)是一个由Google开源的基于容器技术的先进架构方案，目的是实现资源管理的自动化，以及跨多个数据中心的资源利用率最大化，又称为K8S。它是一个完备的分布式系统支撑平台，具有完备的集群管理能力，包括多层次的安全防护和进入机制、多租户应用支撑能力、透明的服务注册和服务发现机制、内建智能负载均衡器、强大的故障发现和自我修复能力、服务滚动升级和在线扩容能力、可拓展的资源自动调度机制，以及多粒度的资源配额管理能力。  
 在K8S中，Service是分布式集群架构的核心，一个Service对象拥有如下关键特征：  

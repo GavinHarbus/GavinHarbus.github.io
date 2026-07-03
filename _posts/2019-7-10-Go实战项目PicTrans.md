@@ -21,7 +21,7 @@ tags:
 #### 介绍
 
 之前学习了Go和其框架Iris的部分内容，便想练练手，毕竟实践是最好的学习方式。因此基于本科的兴趣制作了在线一个图像风格转换工具[***PicTrans***](http://45.32.68.50/PicTrans)。
-![](http://45.32.68.50/large/006tNc79ly1g4ut49d59wj30rk0gpwnd.jpg)
+![](https://crescentrose.blob.core.windows.net/blog-img/006tNc79ly1g4ut49d59wj30rk0gpwnd.jpg)
 
 ---
 
@@ -62,7 +62,7 @@ tags:
 	go run test.go
 	```  
 	得到如下回显：  
-	![](http://45.32.68.50/large/006tNc79ly1g4upda7refj306z0143yj.jpg)  
+	![](https://crescentrose.blob.core.windows.net/blog-img/006tNc79ly1g4upda7refj306z0143yj.jpg)  
 	安装成功！！  
 5. Iris框架安装
 	
@@ -180,7 +180,7 @@ location /PicTrans {
 go run picTransController.go
 ```  
 
-![](http://45.32.68.50/large/006tNc79ly1g4uv1ypqikj30q30gq7cy.jpg)  
+![](https://crescentrose.blob.core.windows.net/blog-img/006tNc79ly1g4uv1ypqikj30q30gq7cy.jpg)  
 
 可以工作！！  
 
